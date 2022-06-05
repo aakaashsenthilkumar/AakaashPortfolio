@@ -86,7 +86,8 @@
   color: white;
   font-size: calc(12px + 1.5vw);
   font-weight: 400;
-  padding: 5% position:relative;
+  padding: 5%;
+  position:relative;
   padding-left: 3%
 }
 
@@ -147,6 +148,18 @@
   height: auto;
   padding: 5%;
   font-size: calc(12px + 1vw);
+  overflow:hidden;
+}
+
+.resume-btn{
+  background-color: white;
+  font-weight: bold;
+  float: right;
+  padding: 0 5%;
+  font-size: calc(10px + 1vw);
+  width: auto;
+  height: auto;
+  margin-right: 5%;
 }
 
 /* experience Section */
@@ -226,7 +239,7 @@ h5 {
   transform: translate(-50%, -50%) scale(1);
 }
 
-.btn {
+#projects .btn {
   margin: 2vw;
   font-size: calc(9px + 1vw);
   background-color: #3A3845;
