@@ -245,6 +245,10 @@ h5 {
   background-color: #3A3845;
 }
 
+#projects .btn:hover {
+  background-color: black;
+}
+
 #projects {
   display: block;
   margin-right: 5%;
